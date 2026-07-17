@@ -5,7 +5,7 @@ function calcularSuma(){
 	const n2 =document.getElementById('num2').value;
 
 
-	// enviar datos  n1 y n2 para que se puedan sumar en el Api y me retorne el Resultado
+	// enviar datos  POST EN JSON n1 y n2 para que se puedan sumar en el Api y me retorne el Resultado
 	fetch ('https://suma2numeros-2.onrender.com/sumar',{
 		method: 'POST',
 		headers:{'Content-Type': 'application/json'},
